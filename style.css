@@ -85,11 +85,13 @@ h2 {
     width:400px;
     line-height:20px;
     margin:40px;
+    left: 0;
 }
 
 .lado-direito {
     display:inline-block;
     line-height:20px;
+    right: 0;
 }
 
 #licoes_aprendidas {
@@ -127,9 +129,11 @@ aside {
     color: black;
     transition: 1s;
 }
+
 #contato a:hover {
     color: rgb(221, 216, 216);
 }
+
 footer {
     position:absolute;
     top:1000px;
